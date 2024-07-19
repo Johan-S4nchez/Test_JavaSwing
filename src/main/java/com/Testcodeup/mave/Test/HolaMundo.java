@@ -6,7 +6,7 @@ public class HolaMundo {
     private JLabel saludo =null;
     public HolaMundo() {
     	ventana = new JFrame("Esto es un Swing");
-    	saludo = new JLabel("Hola Mundo")
+    	saludo = new JLabel("Hola Mundo");
     	ventana.add(saludo);
     	ventana.setLocationRelativeTo(null);
     	ventana.pack();
